@@ -52,3 +52,7 @@ There are seven primitive data types undefined, null, string, number, bigint boo
 bigint is a type of data that represents numbers larger than max_safe_integer which is the maximum safe integer for the primitive data type number.
 symbol: This data type represents a unique identifier, and you need to use a symbol constructor, which is symbol(), to declare a symbol. If you’d like, you can add a string inside the constructor to give it a name. In JavaScript, two symbols are never the same.
  */
+// type coercion
+console.log(1 + '1')
+console.log(11 == '11')
+console.log(11 === '11')

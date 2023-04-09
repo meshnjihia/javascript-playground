@@ -35,3 +35,20 @@ console.log(null)
 
 // symbols
 console.log(Symbol('symbol'))
+
+// typeof
+
+console.log(typeof 123)
+console.log(typeof "123")
+console.log(typeof true)
+console.log(typeof undefined)
+console.log(typeof true)
+console.log(typeof null)
+console.log(typeof Symbol())
+
+// primitive data types are data that are not objects and as such are immutable i.e cannot be changed
+/*
+There are seven primitive data types undefined, null, string, number, bigint boolean and symbol
+bigint is a type of data that represents numbers larger than max_safe_integer which is the maximum safe integer for the primitive data type number.
+symbol: This data type represents a unique identifier, and you need to use a symbol constructor, which is symbol(), to declare a symbol. If you’d like, you can add a string inside the constructor to give it a name. In JavaScript, two symbols are never the same.
+ */

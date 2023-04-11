@@ -1,3 +1,4 @@
+'use strict'
 // window.onload = () => {
 //     console.log('This is your first program executing!');
 // }
@@ -39,7 +40,7 @@ console.log(Symbol('symbol'))
 // typeof
 
 console.log(typeof 123)
-console.log(typeof "123")
+console.log(typeof '123')
 console.log(typeof true)
 console.log(typeof undefined)
 console.log(typeof true)

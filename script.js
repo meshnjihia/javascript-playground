@@ -95,3 +95,13 @@ console.log('conditional statements')
 //     }
 // }
 // alert('you got busted')
+// const colorArray = [
+//     "red",
+//     "green",
+//     "blue",
+//     "purple"
+// ]
+// console.log(colorArray.length)
+let array = ["Milk", "chocolate", "cookies"];
+let string = array.join(' ');
+console.log(string)
